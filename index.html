@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slack portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- this is my Header -->
+    <header>
+      <div class="Container">
+        <div class="slaskLogo">
+          <img src="./Images/slack.svg" alt="slackLogo" width="50px" />
+        </div>
+
+        <div class="slaskProfile">
+          <h2 data-testid="slackUserName">Victor Enobong</h2>
+
+          <div class="profileImage">
+            <img
+              src="./Images/profile-pix.jpg"
+              alt="Your Slack Username"
+              data-testid="slackDisplayImage"
+              width=""
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h2>Day Of Week</h2>
+        <P data-testid="currentDayOfTheWeek"id="dayOfWeek"></P>
+      </section>
+
+      <section>
+        <h2>Current UTC Time</h2>
+        <p id="utcTime" data-testid="currentUTCTime"></p>
+      </section>
+
+      <section>
+        <h2>Track</h2>
+        <p  data-testid="myTrack"> Frontend</p>
+      </section>
+
+      <section>
+        <h2>GitHub URL</h2>
+        <p data-testid="githubURL">
+          <a
+            href="https://github.com/PAVINCO/HNGx-task"
+            target="_blank"
+            data-testid="githubURLLink"
+            >https://github.com/PAVINCO/HNGx-task</a
+          >
+        </p>
+      </section>
+    </main>
+    <script src="JS/portfolio.js"></script>
+  </body>
+</html>
